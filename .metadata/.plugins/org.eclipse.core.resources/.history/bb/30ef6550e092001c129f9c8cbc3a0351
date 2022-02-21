@@ -1,0 +1,15 @@
+package com.crud.spring.serviceimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.crud.spring.repository.StudentRepository;
+import com.crud.spring.service.StudentService;
+
+@Service
+public class StudentServiceImpl implements StudentService {
+	@Autowired
+	private StudentRepository studentRepository;
+	
+	
+}

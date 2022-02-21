@@ -1,0 +1,5 @@
+package com.crud.spring.repository;
+
+public interface CourseRepository {
+
+}

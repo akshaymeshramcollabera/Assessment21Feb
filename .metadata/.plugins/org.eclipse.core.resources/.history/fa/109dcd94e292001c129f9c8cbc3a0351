@@ -1,0 +1,14 @@
+package com.crud.spring.restcontroller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.crud.spring.serviceimpl.StudentServiceImpl;
+
+@RestController
+@RequestMapping("/student")
+public class StudentRestController {
+	@Autowired
+	private StudentServiceImpl studentServiceImpl;
+}
